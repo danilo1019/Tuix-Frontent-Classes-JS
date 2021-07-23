@@ -1,0 +1,56 @@
+.container_buttons{
+  position: absolute;
+  left: 38%;
+  top: 535;
+  width: 25%;
+  height: max-content;
+  background-color: #dcdcdc;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  width: 53%;
+  height: 46px;
+  margin: 2%;
+  background-color: #daccb5;
+  border: black solid 0.7px;
+  color: black;
+  cursor: pointer;
+  font-size: larger;
+  border-radius: 10px;
+  font-size: 30px;
+  z-index:1;
+  font-family: 'Otomanopee One', sans-serif;
+}
+
+.adjust{
+  position:absolute; 
+  top:5%; 
+  left:35%; 
+  visibility:visible; 
+  z-index:1
+}
+
+.adjust_text{
+  position:absolute; 
+  top:321; 
+  left:47%; 
+  visibility:visible; 
+  z-index:1
+}
+
+span{
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 30;
+}
+
+.init_button{
+  margin-left: 25%;
+}
