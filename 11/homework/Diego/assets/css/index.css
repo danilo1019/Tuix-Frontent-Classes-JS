@@ -1,0 +1,56 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container .bg{
+    height: 100%;
+}
+
+#hour{
+    width: 4px;
+    height: 100px;
+    background-image: linear-gradient(rgb(35, 35, 36), rgb(59, 59, 59));
+    position: absolute;
+    transform: translate(665px,-419px);
+    transform-origin: bottom;
+}
+
+#minute{
+    width: 3px;
+    height: 130px;
+    background-image: linear-gradient(rgb(35, 35, 36), rgb(59, 59, 59));
+    position: absolute;
+    transform: translate(666px,-449px);
+    transform-origin: bottom;
+}
+
+#second{
+    width: 2px;
+    height: 130px;
+    background-image: linear-gradient(rgb(71, 3, 3), rgb(184, 8, 8));
+    position: absolute;
+    transform: translate(666px,-449px);
+    transform-origin: bottom;
+}
+
+.point{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: black;
+    background-image: linear-gradient(rgb(71, 3, 3), rgb(184, 8, 8));
+    transform: translate(659px,-328px);
+    z-index: 2;
+}
+
+.numbers{
+    position:absolute;
+    transform: translate(720px,-345px);
+    z-index: 1;
+}
+

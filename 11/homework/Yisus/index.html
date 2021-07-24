@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/index.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Yomogi&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Yomogi&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Yomogi&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Otomanopee+One&family=Yomogi&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet"> 
+    </head>
+    <body>
+        
+
+        <div class="adjust">
+            <img width="500" height="500" id="reloj" src="img/reloj.png" >
+        </div>
+        <div class="adjust">
+            <img width="500" height="500" id="seconds_img" src="img/secs.png" >
+        </div>
+        <div class="adjust">
+            <img width="500" height="500" id="mins_img" src="img/mins.png" >
+        </div>
+        <div class="adjust">
+            <img width="500" height="500" id="hours_img" src="img/hours.png" >
+        </div>
+        
+        <div class="adjust_text">
+            <span id="hours">00:</span>
+            <span id="minutes">00:</span>
+            <span id="seconds">00</span>
+        </div>
+        <div class="container_buttons">
+            <div class="buttons">
+                <button id="stop" onclick="stop()" hidden>DETENER</button>
+                <button class="init_button" id="start" onclick="start()">INICIAR</button>
+                <button id="restart" onclick="restart()" hidden>REINICIAR</button>
+            </div>
+        </div>
+        <script src="js/stopWatch.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
+
+
