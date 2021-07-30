@@ -34,7 +34,6 @@ const checkGameOver = function() {
 }
 
 const detectCollision = function() {
-  console.log('Head',snake.getHeadPosition(), ' food', food.getPosition() )
   if (
     food.getPosition().x === snake.getHeadPosition().x &&
     food.getPosition().y === snake.getHeadPosition().y
